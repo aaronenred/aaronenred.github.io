@@ -1,0 +1,33 @@
+hr {
+    color: rgb(138, 0, 180);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(156, 26, 182);
+    text-align: center;
+}
+
+hr {
+    color: blue;
+}
+
+p {
+    font-size: 19px;
+    text-align: end;
+}
+
+body {
+    margin: 3em;
+    font-family: sans-serif;
+    background-color: rgb(245, 209, 163);
+}
+
+.picotres{
+    color: rgb(255, 81, 81);
+}
+
+a:link, a:visited {
+    color: hotpink;
+    text-align: center;
+}

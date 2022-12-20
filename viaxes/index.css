@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(243, 211, 255);
+    font-family: 'Noto Sans Vai', sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    margin: -8px;
+}
+
+svg {
+    margin: 5px;
+    margin-bottom: -5px;
+}
+
+.barrasuperior {
+    float: right;
+    margin-right: 10px;
+}
+
+.titulo {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #fbe7ff;
+    padding-right: 1050px;
+    font-family: 'Noto Serif Telugu', serif;
+}
+
+.desctitulo {
+    margin-top: -20px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: #fbe7ff;
+    font-family: 'Noto Sans Vai', sans-serif;
+}
+
+.brillitos {
+    font-size: 16px;
+}
+
+/* Todo isto é só a barra morada de arriba, é igual en todas as páxinas */
+
+form {
+    background-color: rgba(137, 43, 226, 0.377);
+    margin-top: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+select {
+    border-radius: 2px;
+    margin-right: 40px;
+    width: 115px;
+    height: 30px;
+    padding-left: 5px;
+    background-color: rgb(243, 211, 255);
+}
+
+input {
+    height: 30px;
+    width: 110px;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-right: 40px;
+    border-color: rgb(175, 175, 175);
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(243, 211, 255);
+}
+
+.elboton {
+    margin-left: 45px;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    border-width: 4px;
+    border-color: rgba(157, 81, 228, 0.377);
+
+    background-color: rgba(211, 166, 253, 0.767);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+table {
+    margin: auto;
+    margin-top: 60px;
+    width: 85%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th{
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-right: 110px;
+}
+
+td{
+    font-weight: bold;
+    padding: 8px;
+}
+
+a:link {
+    color: rgb(111, 111, 255);
+}
+
+a:visited{
+    color: rgb(198, 52, 255);
+}
+
+a:hover {
+    color: rgb(255, 122, 233);
+    padding-bottom: 2px;
+    position: relative;
+    bottom: 2px;
+}
+
+figure{
+
+    margin-top: -3px;
+}
+
+.fotitolink{
+    text-decoration:none;
+}
+
+figcaption{
+    font-size: 20px;
+    background-color: rgba(137, 43, 226, 0.753);
+    color: rgb(243, 211, 255);
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.lapata{
+    font-size: 13px;
+}
+
+/* Dende aquí ata o final solo é o pé de páxina */
+
+hr {
+    border: 1px solid rgb(237, 188, 255);
+    margin: 3px;
+    margin-top: 86px;
+}
+
+footer {
+    margin: auto;
+    margin-right: 7px;
+    text-align: right;
+}
+
+.hechapor {
+    font-size: 11px;
+    text-align: right;
+}
+
+.irocho{
+    margin-top: -10px;
+}

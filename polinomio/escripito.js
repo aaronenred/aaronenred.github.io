@@ -17,7 +17,7 @@ function restita(a, b) {
 function multiplicacioncita(a, b) {
     return (a * b);
 }
-function pintar(a, b, c, d) {
+function pintar(a, b, c, d, e) {
     if (a >= 0) {
         a = "+" + a;
     };
@@ -28,7 +28,11 @@ function pintar(a, b, c, d) {
         c = "+" + c;
     };
 
-    document.getElementById(d).innerHTML = "O teu polinomio é: " + a + "x<sup>2</sup>" + b + "x" + c;
+    if (e == "pintar") {
+        document.getElementById(d).innerHTML = "<p>O teu polinomio é: " + a + "x<sup>2</sup>" + b + "x" + c + "</p>";
+    } else if (e == "resultado") {
+        document.getElementById(d).innerHTML = "<p>O teu resultado é: " + a + "x<sup>2</sup>" + b + "x" + c + "</p>";
+    }
 }
 function pintardificil(a, b, c, d, e, z) {
     if (a >= 0) {
@@ -48,11 +52,11 @@ function pintardificil(a, b, c, d, e, z) {
     };
 
     document.getElementById(z).innerHTML =
-        "O resultado da multiplicación é: " + a + "x<sup>4</sup>" +
+        "<p>O resultado da multiplicación é: " + a + "x<sup>4</sup>" +
         b + "x<sup>3</sup>" +
         c + "x<sup>2</sup>" +
         d + "x" +
-        e;
+        e + "</p>";
 }
 // Declaramos funcións - Final
 
@@ -76,14 +80,14 @@ function todo() {
     var terceiro2 = parseInt(document.getElementById("2pol3").value);
 
     // Presentar os polinomios introducidos polo usuario - Inicio
-    pintar(primeiro, segundo, terceiro, "presenta1pol");
+    pintar(primeiro, segundo, terceiro, "presenta1pol", "pintar");
     /* document.getElementById("pausita").innerHTML = "<br>" ; */
-    pintar(primeiro2, segundo2, terceiro2, "presenta2pol");
+    pintar(primeiro2, segundo2, terceiro2, "presenta2pol", "pintar");
     // Presentar os polinomios introducidos polo usuario - Final
 
     // Resultados - Inicial
-    pintar(sumita(primeiro, primeiro2), sumita(segundo, segundo2), sumita(terceiro, terceiro2), "sumita");
-    pintar(restita(primeiro, primeiro2), restita(segundo, segundo2), restita(terceiro, terceiro2), "restita");
+    pintar(sumita(primeiro, primeiro2), sumita(segundo, segundo2), sumita(terceiro, terceiro2), "sumita", "resultado");
+    pintar(restita(primeiro, primeiro2), restita(segundo, segundo2), restita(terceiro, terceiro2), "restita", "resultado");
     // Multiplicación - Inicio
     /* Como el resultado de la multiplicación dará 9 valores, declaramos
     una variable para cada uno y así poder operar con ellos más tarde */

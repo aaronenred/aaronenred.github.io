@@ -5,51 +5,96 @@
 	<title>Calculadora</title>
 	<link rel="stylesheet" href="estilazo.css">
 	<script type="text/javascript" src="escripito.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 	<h2> Calculadora polinómica</h2>
 
+	<p id="alguito">(Por favor introduce os coeficientes co signo correspondente)</p>
+
 	<form>
 		<table>
 			<tr>
-				<td> Polinomio 1: </td>
+				<td>
+					<p>Polinomio 1: </p>
+				</td>
 				<td> <input type="number" id="1pol1" class="elinput" value="0" oninput="todo()"> </td>
-				<td> x<sup>2</sup> </td>
+				<td>
+					<p> x<sup>2</sup></p>
+				</td>
 				<td> <input type="number" id="1pol2" class="elinput" value="0" oninput="todo()"> </td>
-				<td> x </td>
+				<td>
+					<p> x </p>
+				</td>
 				<td> <input type="number" id="1pol3" class="elinput" value="0" oninput="todo()"> </td>
 			</tr>
 			<tr>
-				<td> Polinomio 2: </td>
+				<td>
+					<p> Polinomio 2: </p>
+				</td>
 				<td> <input type="number" id="2pol1" class="elinput" value="0" oninput="todo()"> </td>
-				<td> x<sup>2</sup> </td>
+				<td>
+					<p> x<sup>2</sup></p>
+				</td>
 				<td> <input type="number" id="2pol2" class="elinput" value="0" oninput="todo()"> </td>
-				<td> x </td>
+				<td>
+					<p> x </p>
+				</td>
 				<td> <input type="number" id="2pol3" class="elinput" value="0" oninput="todo()"> </td>
 			</tr>
 		</table>
 	</form>
 
-	<p id="presenta1pol"></p>
-	<!-- <p id="pausita"></p> -->
-	<p id="presenta2pol"></p>
+	<table id="presentacion">
+		<tr>
+			<td>
+				<p id="presenta1pol"></p>
+			</td>
+			<td>
+				<p id="presenta2pol"></p>
+			</td>
+		</tr>
+	</table>
 
-	<h4>S U M A</h4>
-<p id="sumita"></p>
+	<table class="resultados">
+		<tr>
+			<td id="lassumas">
+				<h4>S U M A</h4>
+				<p id="sumita"></p>
+			</td>
+			<td id="lasrestas">
+				<h4>R E S T A</h4>
+				<p id="restita"></p>
+			</td>
+		</tr>
+	</table>
+	<table class="resultados">
+		<tr>
+			<td id="lasmultiplicas">
+				<h4>M U L T I P L I C A C I Ó N</h4>
+				<p id="multiplicacioncita"></p>
+			</td>
+		</tr>
+	</table>
 
-	<h4>R E S T A</h4>
-<p id="restita"></p>
-
-	<h4>M U L T I P L I C A C I Ó N</h4>
-<p id="multiplicacioncita"></p>
 
 
-	<hr>
-	<p id="iluvu">
-		Feito por Aarón Alonso. <br> Dedicado aos alumnos de Bea, profesora <br> 2º de matemáticas bilingüe <span
-			id="picotres">&lt;3</span></p>
+
+
+
+
+	<div id="final">
+		<hr>
+		<p id="iluvu">
+			Feito por Aarón Alonso. <br> Dedicado aos alumnos de Bea, profesora <br> 2º de matemáticas bilingüe <span
+				id="picotres">&lt;3</span></p>
+	</div>
 
 </body>
 

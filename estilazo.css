@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 241, 212);
+    margin: 25px 25px 25px 25px;
+}
+
+h2 {
+    color: rgb(35, 163, 84);
+}
+
+a:hover {
+    color: hotpink;
+}
